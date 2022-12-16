@@ -13,7 +13,7 @@
 
         <div class="links">
             <a class="{{ Route::currentRouteName() === 'characters' ? 'active' : '' }}" href="#" aria-current="page">characters</a>
-            <a class="{{ Route::currentRouteName() === 'home' ? 'active' : '' }}" href="{{ route('home') }}" aria-current="page">comics</a>
+            <a class="{{ Route::currentRouteName() === 'comics' ? 'active' : '' }}" href="{{ route('comics') }}" aria-current="page">comics</a>
             <a class="{{ Route::currentRouteName() === 'movies' ? 'active' : '' }}" href="#" aria-current="page">movies</a>
             <a class="{{ Route::currentRouteName() === 'tv' ? 'active' : '' }}" href="#" aria-current="page">tv</a>
             <a class="{{ Route::currentRouteName() === 'games' ? 'active' : '' }}" href="#" aria-current="page">games</a>

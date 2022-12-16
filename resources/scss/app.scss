@@ -21,14 +21,34 @@ header {
             }
 
             .active {
-                border-bottom: 3px solid blue;
+                border-bottom: 3px solid #0282F9;
             }
         }
 
         .search {
             padding-top: .3rem;
             padding-left: 2rem;
-            border-bottom: 3px solid blue;
+            border-bottom: 3px solid #0282F9;
+        }
+    }
+}
+
+main {
+    .jumbotron {
+        background-image: url('../img/jumbotron.jpg');
+        height: 400px;
+    }
+
+    .banner {
+        h3 {
+            text-transform: uppercase;
+            color: white;
+            background-color: #0282F9;
+            padding: 1rem;
+            width: 260px;
+            position: relative;
+            top: 23rem;
+            left: 4rem;
         }
     }
 }
