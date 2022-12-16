@@ -1,6 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+img {
+    max-width: 100%;
+}
+
 
 header {
 
@@ -49,6 +53,17 @@ main {
             position: relative;
             top: 23rem;
             left: 4rem;
+        }
+    }
+
+    .comics {
+        padding: 5rem 0;
+
+        .my-card {
+            img {
+                width: 250px;
+                height: 280px;
+            }
         }
     }
 }
