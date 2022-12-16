@@ -21,18 +21,18 @@ header {
                 text-decoration: none;
                 color: black;
                 margin-right: 1.5rem;
-                padding-bottom: 2rem;
+                padding-bottom: 3.35rem;
             }
 
             .active {
-                border-bottom: 3px solid #0282F9;
+                border-bottom: 4px solid #0282F9;
             }
         }
 
         .search {
             padding-top: .3rem;
             padding-left: 2rem;
-            border-bottom: 3px solid #0282F9;
+            border-bottom: 4px solid #0282F9;
         }
     }
 }
@@ -62,8 +62,39 @@ main {
         .my-card {
             img {
                 width: 250px;
-                height: 280px;
+                height: 250px;
+                object-fit: cover;
             }
+        }
+
+        .button {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                margin: 0;
+                width: 250px;
+                background: #0282F9;
+                padding: .5rem;
+            }
+        }
+    }
+
+    .main-banner {
+        background: #0282F9;
+
+        img {
+            width: 70px;
+            height: 70px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
         }
     }
 }

@@ -213,5 +213,11 @@ return [
                 "Joëlle Jones"
             ],
         ],
+    ],
+
+    'banner' => [
+        [
+            'image' => ''
+        ]
     ]
 ];
