@@ -10,7 +10,7 @@
 
 <section class="comics bg-dark">
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-5">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3">
             @foreach($thumbs as $thumb)
             <div class="col">
                 <div class="my-card text-white text-uppercase border-0">
@@ -29,7 +29,6 @@
 <section class="main-banner">
     <div class="container">
         <div class="row row-cols-1 row-cols-lg-5">
-
             <div class="col d-flex align-items-center py-5 justify-content-center">
                 <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                 <p class="mb-0 ms-3"><a href="#">DIGITAL COMICS</a></p>
@@ -50,7 +49,6 @@
                 <img src="{{Vite::asset('resources/img/buy-dc-power-visa.svg')}}" alt="">
                 <p class="mb-0 ms-3"><a href="#">DC POWER VISA</a></p>
             </div>
-
         </div>
     </div>
 </section>

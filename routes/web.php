@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = [
-        'thumbs' => config('db.comics')
+        'thumbs' => config('db.comics'),
+        'links' => config('links_footer.links')
     ];
 
     return view('comics', $data);
